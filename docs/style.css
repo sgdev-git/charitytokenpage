@@ -10,7 +10,7 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(90deg, #ff007f, #00f7ff);
+    background: linear-gradient(90deg, #170027, #1f0047); /* Darker, richer gradient */
     color: #fff;
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
@@ -20,10 +20,14 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
 }
 
 header .logo {
-    height: 60px;
+    height: 60px; /* Resized for better fit */
+    margin-left: 10px; /* Slight offset for better alignment */
 }
 
 header nav ul {
