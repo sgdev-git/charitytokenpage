@@ -10,7 +10,7 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(90deg, #170027, #1f0047); /* Darker, richer gradient */
+    background: linear-gradient(90deg, #02010a, #02010a); /* Darker, richer gradient */
     color: #fff;
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
@@ -26,7 +26,7 @@ header .container {
 }
 
 header .logo {
-    height: 60px; /* Resized for better fit */
+    height: 120px; /* Resized for better fit */
     margin-left: 10px; /* Slight offset for better alignment */
 }
 
